@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+</head>
+    <body>
+        <h1>
+             Scores:<span class="playerScores"></span> 
+             Combo:<span class="totalCombo">0</span>
+        </h1>
+        <br>
+        <button id="timer" onclick="countDown()">Timer ON</button>
+        <br>
+        <section></section>
+        <br>
+        <div>    
+            Enter multiple of 3:
+            <input type="text" id="num" value="9" style="text-align:right;" size="5">
+            <button id="enNum" onclick="cardGen()">Start</button>
+            <br>   
+        </div>
+        <a href="Instruction.html">Instruciton</a>
+        <script src="cardgame.js"></script>
+    </body>
+</html>
